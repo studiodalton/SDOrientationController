@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC863205147137620076D95E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC863204147137620076D95E /* UIKit.framework */; };
+		CC863207147137620076D95E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC863206147137620076D95E /* Foundation.framework */; };
+		CC863209147137620076D95E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC863208147137620076D95E /* CoreGraphics.framework */; };
+		CC86320F147137620076D95E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC86320D147137620076D95E /* InfoPlist.strings */; };
+		CC863211147137620076D95E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC863210147137620076D95E /* main.m */; };
+		CC863215147137620076D95E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC863214147137620076D95E /* AppDelegate.m */; };
+		CC86321E147137E50076D95E /* SDOrientationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC86321D147137E50076D95E /* SDOrientationController.m */; };
+		CC86322B14717A0E0076D95E /* MyLandscapeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC86322914717A0D0076D95E /* MyLandscapeViewController.m */; };
+		CC86322C14717A0E0076D95E /* MyLandscapeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC86322A14717A0D0076D95E /* MyLandscapeViewController.xib */; };
+		CC86323014717B000076D95E /* MyPortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC86322E14717B000076D95E /* MyPortraitViewController.m */; };
+		CC86323114717B000076D95E /* MyPortraitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC86322F14717B000076D95E /* MyPortraitViewController.xib */; };
+		CC86323514717BF50076D95E /* MyLandscapeViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = CC86323314717BF50076D95E /* MyLandscapeViewController2.m */; };
+		CC86323614717BF50076D95E /* MyLandscapeViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC86323414717BF50076D95E /* MyLandscapeViewController2.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CC863200147137620076D95E /* SDOrientationControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDOrientationControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC863204147137620076D95E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CC863206147137620076D95E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CC863208147137620076D95E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CC86320C147137620076D95E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC86320E147137620076D95E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CC863210147137620076D95E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC863212147137620076D95E /* SDOrientationControllerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SDOrientationControllerExample-Prefix.pch"; sourceTree = "<group>"; };
+		CC863213147137620076D95E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC863214147137620076D95E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC86321C147137E50076D95E /* SDOrientationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SDOrientationController.h; path = ../../../Source/SDOrientationController.h; sourceTree = "<group>"; };
+		CC86321D147137E50076D95E /* SDOrientationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SDOrientationController.m; path = ../../../Source/SDOrientationController.m; sourceTree = "<group>"; };
+		CC86322814717A0D0076D95E /* MyLandscapeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLandscapeViewController.h; sourceTree = "<group>"; };
+		CC86322914717A0D0076D95E /* MyLandscapeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLandscapeViewController.m; sourceTree = "<group>"; };
+		CC86322A14717A0D0076D95E /* MyLandscapeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyLandscapeViewController.xib; sourceTree = "<group>"; };
+		CC86322D14717B000076D95E /* MyPortraitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPortraitViewController.h; sourceTree = "<group>"; };
+		CC86322E14717B000076D95E /* MyPortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPortraitViewController.m; sourceTree = "<group>"; };
+		CC86322F14717B000076D95E /* MyPortraitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyPortraitViewController.xib; sourceTree = "<group>"; };
+		CC86323214717BF50076D95E /* MyLandscapeViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLandscapeViewController2.h; sourceTree = "<group>"; };
+		CC86323314717BF50076D95E /* MyLandscapeViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLandscapeViewController2.m; sourceTree = "<group>"; };
+		CC86323414717BF50076D95E /* MyLandscapeViewController2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyLandscapeViewController2.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC8631FD147137620076D95E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC863205147137620076D95E /* UIKit.framework in Frameworks */,
+				CC863207147137620076D95E /* Foundation.framework in Frameworks */,
+				CC863209147137620076D95E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC8631F5147137610076D95E = {
+			isa = PBXGroup;
+			children = (
+				CC86320A147137620076D95E /* SDOrientationControllerExample */,
+				CC863203147137620076D95E /* Frameworks */,
+				CC863201147137620076D95E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC863201147137620076D95E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC863200147137620076D95E /* SDOrientationControllerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC863203147137620076D95E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CC863204147137620076D95E /* UIKit.framework */,
+				CC863206147137620076D95E /* Foundation.framework */,
+				CC863208147137620076D95E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC86320A147137620076D95E /* SDOrientationControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				CC86321B147137D60076D95E /* Source */,
+				CC863213147137620076D95E /* AppDelegate.h */,
+				CC863214147137620076D95E /* AppDelegate.m */,
+				CC86322D14717B000076D95E /* MyPortraitViewController.h */,
+				CC86322E14717B000076D95E /* MyPortraitViewController.m */,
+				CC86322F14717B000076D95E /* MyPortraitViewController.xib */,
+				CC86322814717A0D0076D95E /* MyLandscapeViewController.h */,
+				CC86322914717A0D0076D95E /* MyLandscapeViewController.m */,
+				CC86322A14717A0D0076D95E /* MyLandscapeViewController.xib */,
+				CC86323214717BF50076D95E /* MyLandscapeViewController2.h */,
+				CC86323314717BF50076D95E /* MyLandscapeViewController2.m */,
+				CC86323414717BF50076D95E /* MyLandscapeViewController2.xib */,
+				CC86320B147137620076D95E /* Supporting Files */,
+			);
+			path = SDOrientationControllerExample;
+			sourceTree = "<group>";
+		};
+		CC86320B147137620076D95E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC86320C147137620076D95E /* Info.plist */,
+				CC86320D147137620076D95E /* InfoPlist.strings */,
+				CC863210147137620076D95E /* main.m */,
+				CC863212147137620076D95E /* SDOrientationControllerExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC86321B147137D60076D95E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				CC86321C147137E50076D95E /* SDOrientationController.h */,
+				CC86321D147137E50076D95E /* SDOrientationController.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC8631FF147137620076D95E /* SDOrientationControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC863218147137620076D95E /* Build configuration list for PBXNativeTarget "SDOrientationControllerExample" */;
+			buildPhases = (
+				CC8631FC147137620076D95E /* Sources */,
+				CC8631FD147137620076D95E /* Frameworks */,
+				CC8631FE147137620076D95E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDOrientationControllerExample;
+			productName = SDOrientationControllerExample;
+			productReference = CC863200147137620076D95E /* SDOrientationControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC8631F7147137610076D95E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = StudioDalton;
+			};
+			buildConfigurationList = CC8631FA147137610076D95E /* Build configuration list for PBXProject "SDOrientationControllerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CC8631F5147137610076D95E;
+			productRefGroup = CC863201147137620076D95E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC8631FF147137620076D95E /* SDOrientationControllerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC8631FE147137620076D95E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC86320F147137620076D95E /* InfoPlist.strings in Resources */,
+				CC86322C14717A0E0076D95E /* MyLandscapeViewController.xib in Resources */,
+				CC86323114717B000076D95E /* MyPortraitViewController.xib in Resources */,
+				CC86323614717BF50076D95E /* MyLandscapeViewController2.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC8631FC147137620076D95E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC863211147137620076D95E /* main.m in Sources */,
+				CC863215147137620076D95E /* AppDelegate.m in Sources */,
+				CC86321E147137E50076D95E /* SDOrientationController.m in Sources */,
+				CC86322B14717A0E0076D95E /* MyLandscapeViewController.m in Sources */,
+				CC86323014717B000076D95E /* MyPortraitViewController.m in Sources */,
+				CC86323514717BF50076D95E /* MyLandscapeViewController2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CC86320D147137620076D95E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC86320E147137620076D95E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC863216147137620076D95E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC863217147137620076D95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC863219147137620076D95E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDOrientationControllerExample/SDOrientationControllerExample-Prefix.pch";
+				INFOPLIST_FILE = SDOrientationControllerExample/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CC86321A147137620076D95E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SDOrientationControllerExample/SDOrientationControllerExample-Prefix.pch";
+				INFOPLIST_FILE = SDOrientationControllerExample/Info.plist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC8631FA147137610076D95E /* Build configuration list for PBXProject "SDOrientationControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC863216147137620076D95E /* Debug */,
+				CC863217147137620076D95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC863218147137620076D95E /* Build configuration list for PBXNativeTarget "SDOrientationControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC863219147137620076D95E /* Debug */,
+				CC86321A147137620076D95E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC8631F7147137610076D95E /* Project object */;
+}
