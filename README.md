@@ -14,6 +14,7 @@ Features
 
 - Enables you to use one view controller for portrait and another for landscape orientations.
 - You can change the view controllers for either orientation at any time.
+- You can set whether the Portrait Upside Down orientation should be supported at all. (property `allowsPortraitUpsideDownOrientation`)
 - You can have one view controller which supports both orientations that's always set, and another that only supports one orientation that's only set when appropriate.
   When rotating, this first view controller will be used for both orientations if no view controller was found for the orientation we're rotating to.
   
@@ -21,7 +22,6 @@ Features
   In this situation, the app will behave exactly as it would if `SDOrientationController` wasn't used, and the orientation-agnostic `portraitViewController` was set as the app's `rootViewController`.
   
   This feature can be useful when you only want to have a different view controller for one of the orientations under certain conditions, like when a "landscape screensaver" is enabled.
-- You can set whether the Portrait Upside Down orientation should be supported at all. (property `allowsPortraitUpsideDownOrientation`)
   
 All of these features can be seen in action in the [Example](/tree/master/Example).
  
