@@ -7,7 +7,7 @@ This way you can easily build an app where one view controller is shown when the
 
 Both the iPhone and iPad are supported, but as we make use of iOS 5's View Controller Containment, your users have to be on iOS 5+. 
 
-SDOrientationController was made to be used with Automatic Reference Counting, but if you follow the steps under [No ARC?](#no_arc), it should work with your non-ARC projects just fine.
+SDOrientationController was made to be used with Automatic Reference Counting, but if you follow the steps under *No ARC?*, it should work with your non-ARC projects just fine.
 
 Features
 --------
@@ -23,7 +23,7 @@ Features
   
   This feature can be useful when you only want to have a different view controller for one of the orientations under certain conditions, like when a "landscape screensaver" is enabled.
   
-All of these features can be seen in action in the [Example](/tree/master/Example).
+All of these features can be seen in action in the [Example](https://github.com/StudioDalton/SDOrientationController/tree/master/Example).
  
 Getting Started
 ---------------
